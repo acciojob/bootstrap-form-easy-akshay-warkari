@@ -27,6 +27,7 @@
         <div class="col-md-4">
           <label for="email-input" class="form-label">Email Address</label>
           <input type="email" class="form-control" id="email-input" required>
+			 <div class="invalid-feedback">Email required!</div>
         
         </div>
       </div>
@@ -35,6 +36,8 @@
         <div class="col-md-4">
           <label for="college-input" class="form-label">College</label>
           <input type="text" class="form-control" id="college-input" required>
+			<div class="invalid-feedback">College name required!</div>
+
           
         </div>
         <div class="col-md-4">
@@ -46,12 +49,14 @@
             <option value="2022">2022</option>
             <option value="2023">2023</option>
           </select>
+			 <div class="invalid-feedback">Please select a valid Graduation Year.</div>
 
         </div>
         <div class="col-md-4">
 			 <form class="needs-validation" novalidate>
           <label for="roll-no-input" class="form-label">Roll No.</label>
           <input type="text" class="form-control" id="roll-no-input" required>
+				  <div class="invalid-feedback">Roll number required!</div>
           
         </div>
       </div>
